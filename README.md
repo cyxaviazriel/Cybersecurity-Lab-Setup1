@@ -217,6 +217,8 @@ Gateway:
 DNS:
 8.8.8.8
 ```
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_47_46" src="https://github.com/user-attachments/assets/02426932-76dd-40be-bdd2-ece57efca229" />
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_48_55" src="https://github.com/user-attachments/assets/70cca7ce-a55c-4cb8-a6cc-312f6ef03ede" />
 
 ---
 
