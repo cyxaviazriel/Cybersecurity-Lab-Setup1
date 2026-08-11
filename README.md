@@ -81,16 +81,16 @@ Additional target machines can be added to the same virtual network in future pr
 
 | 🧩 Component       | ⚙️ Configuration   |
 | ------------------ | ------------------  |
-| 🖥️ Host OS         | Windows 10         |
+| 🖥️ Host OS         | Windows 11         |
 | 🧠 Host RAM        | 8 GB               |
-| ⚡ Processor       | Intel Core i7      |
+| ⚡ Processor       | Intel Core i5      |
 | 🧰 Hypervisor      | VirtualBox 7.2  |
 | 🐉 Security OS     | Kali Linux 2026.2  |
 | 🧠 Kali RAM        | 2048 MB            |
 | 🌐 Virtual Network | NAT Network        |
-| 📡 Network Address | 10.0.0.0/24        |
-| 🐧 Kali IP Address | 10.0.0.2/24        |
-| 🚪 Default Gateway | 10.0.0.1           |
+| 📡 Network Address | 10.0.2.0/24        |
+| 🐧 Kali IP Address | 10.0.2.3/24        |
+| 🚪 Default Gateway | 10.0.2.1           |
 | 🌍 DNS Server      | 8.8.8.8            |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
@@ -113,14 +113,14 @@ VirtualBox was installed as the hypervisor.
 ---
 
 ## Step 3. Create the NAT Network
-
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration:
 Network Name: NatNetwork
-IPv4 Prefix:  10.0.0.0/24
+IPv4 Prefix:  10.0.2.0/24
 DHCP:         Enabled
 IPv6:         Disabled
+<img width="1366" height="768" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/e6af57e5-6774-4404-b9bd-1e33db6a3a10" />
 
 ![](2-screenshot-network-settings-1.png)
 
@@ -149,7 +149,8 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_06_50" src="https://github.com/user-attachments/assets/bffe5ed3-48c4-47e4-b436-755d54d31266" />
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -163,15 +164,16 @@ The Kali Linux network configuration was checked and configured with a consisten
 Example configuration:
 
 ```text
-IP Address: 10.0.0.2
+IP Address: 10.0.2.3
 Subnet Mask: 255.255.255.0
-Gateway: 10.0.0.1
+Gateway: 10.0.2.1
 DNS: 8.8.8.8
 ```
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_42_50" src="https://github.com/user-attachments/assets/045ee1aa-9c4f-49f5-890b-f259752d235c" />
+
 
 ---
 
