@@ -234,7 +234,10 @@ One workaround used during this lab was:
 
 ```bash
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+
+
 ```
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_01_16_27" src="https://github.com/user-attachments/assets/df4c942b-d2e9-48f5-9220-e1ade50fb96a" />
 
 The network connection was then restarted/rebooted and connectivity was tested again.
 
