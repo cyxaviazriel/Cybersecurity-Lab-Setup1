@@ -69,7 +69,8 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![](1-screenshot-title-image.png)
+<img width="1109" height="494" alt="Screenshot 2026-08-10 234811" src="https://github.com/user-attachments/assets/8ce0edd8-f3e6-4e20-9e2e-83567f1a8c08" />
+
 
 
 Additional target machines can be added to the same virtual network in future projects.
@@ -305,10 +306,10 @@ This laboratory is intended strictly for education purposes only.
 
 # 👤 Author
 
-**Waqas Karim**\
-Cybersecurity Professional B082
+**Alebiosu Oluwadamilare Samuel**\
+Cybersecurity Intern ➜ NetworkWalks
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
+LinkedIn: [www.linkedin.com/in/alebiosu-soc](https://www.linkedin.com/in/alebiosu-soc)
 
 ---
 
