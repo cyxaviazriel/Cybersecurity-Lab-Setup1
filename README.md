@@ -22,7 +22,7 @@
 
 ---
 
-## 📌 Project Overview
+## 🛡️ Project Overview
 
 This project focuses on setting up a **virtual cybersecurity and penetration testing laboratory** using VirtualBox and Kali Linux.
 
@@ -33,7 +33,7 @@ The lab is configured on a private virtual network so that additional machines c
 ---
 
 
-## 🎯 Objectives
+## 🛡️ Objectives
 
 The main objectives of this project are to:
 
@@ -67,7 +67,7 @@ It can be used for activities such as:
 
 ---
 
-## 🏗️ Lab Architecture
+## 🛡️ Lab Architecture
 
 <img width="1109" height="494" alt="Screenshot 2026-08-10 234811" src="https://github.com/user-attachments/assets/8ce0edd8-f3e6-4e20-9e2e-83567f1a8c08" />
 
@@ -77,7 +77,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 ---
 
-## ⚙️ Lab Configuration
+## 🛡️ Lab Configuration
 
 | 🧩 Component       | ⚙️ Configuration   |
 | ------------------ | ------------------  |
@@ -96,7 +96,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 ---
 
-# 🪜 Lab Setup Procedure
+# 🛡️ Lab Setup Procedure
 
 ## Step 1. Install 7-Zip
 
@@ -194,7 +194,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
-# 🔎 Lab Verification
+# 🛡️ Lab Verification
 
 | ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
 | ----------------------------- | ------------------------------- | ------------------------------- |
@@ -222,7 +222,7 @@ DNS:
 
 ---
 
-# 🐞 Problems Encountered & Solutions
+# 🛡️ Problems Encountered & Solutions
 
 Documenting problems is an important part of the project.
 
@@ -263,7 +263,7 @@ After enabling virtualization, the VM started successfully.
 
 ---
 
-# 💡 What I Learned
+# 🛡️ What I Learned
 
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
 
@@ -297,13 +297,13 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 ---
 
-# 🔐 Security & Ethical Use
+# 🛡️ Security & Ethical Use
 
 This laboratory is intended strictly for education purposes only.
 
 ---
 
-# 🔗 Tools & Resources
+# 🛡️ Tools & Resources
 
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
@@ -320,6 +320,6 @@ LinkedIn: [www.linkedin.com/in/alebiosu-soc](https://www.linkedin.com/in/alebios
 
 ---
 
-## 📌 Project Information
+## 🛡️ Project Information
 
 **Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
